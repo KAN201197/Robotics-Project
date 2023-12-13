@@ -16,4 +16,8 @@ Below are listed the executable files and folders in this repo:
 
 3. robot_nav2
 
-   Inside this folder has launch files to initialize localization and navigation into the robot using Nav2 navigation stack. The param folder used to define every parameter related to AMCL and navigation used by the robot. Map folder used to save the map building by SLAM algorithm. The script folder has an executable file ("gotopose.py") used to give a command to the robot to move into three different position.  
+   Inside this folder has launch files to initialize localization and navigation into the robot using Nav2 navigation stack. The param folder used to define every parameter related to AMCL and navigation used by the robot. Map folder used to save the map building by SLAM algorithm. The script folder has an executable file ("gotopose.py") used to give a command to the robot to move into three different position.
+
+4. robot_slam
+
+   Inside this folder has several folders used to do mapping with different SLAM algorithm. The available SLAM method is Carthographer, SLAM toolbox, and SLAM gmapping.
